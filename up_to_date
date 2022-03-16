@@ -1,0 +1,60 @@
+     git clone https://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@github.com/brookhma/alx-pre_course.git
+     cd alx-pre_course/
+     echo 'My first readme' > README.md
+     cat README.md 
+     git config --global user.email "brookhma@gmail.com"
+     git config --global user.name "Biruk Abera"
+     git add .
+     git commit -m 'My first commit'
+     git push
+     mkdir 0x01-git
+     cd 0x01-git/
+     echo 'My first readme' > README.md
+     git add .
+     git push
+     git commit 
+     git commit -m 'New Folder'
+     git push
+     cd 0x01-git/
+     mkdir  {bash,c,js}
+     touch c/c_is_fun.c
+     touch js/main.js
+     touch js/index.js
+     vi bash/alx
+     vi bash/school
+     git add .
+     git commit -m "Starting to code today, so cool"
+     git push
+     git checkout -b update_script
+     cd ..
+     git push origin update_script
+     git branch -a
+     cd 0x01-git/
+     touch bash/98
+     git branch -a
+     git add .
+     vi bash/alx 
+     git add .
+     vi bash/school 
+     git add .
+     git commit -m "My personal work"
+     git push --set-upstream origin update_script
+     git push
+     git branch -a
+     git checkout master
+     git branch -a
+     cd ..
+     ls
+     cd 0x01-git/
+     rm -rf js/
+     vi bash/alx 
+     git add .
+     grit commit -m 'Hot fix'
+     git commit -m 'Hot fix'
+     git push
+     cd ..
+     git branch -a
+     git pull 
+     cat README.md 
+     touch up_to_date
+     vi up_to_date 
